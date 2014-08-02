@@ -4,7 +4,7 @@
 	<groupId>io.repaint.tiles</groupId>
 	<artifactId>apache-maven-central-tile</artifactId>
 	<packaging>tile</packaging>
-	<version>1.1-SNAPSHOT</version>
+	<version>1.1</version>
 	<name>Apache Maven Central Configuration tile</name>
 
   <description>Provides the necessary configuration to support release
@@ -16,7 +16,7 @@
 			<plugin>
 				<groupId>io.repaint.maven</groupId>
 				<artifactId>tiles-maven-plugin</artifactId>
-				<version>1.1</version>
+				<version>1.2-SNAPSHOT</version>
 				<extensions>true</extensions>
 			</plugin>
 		</plugins>

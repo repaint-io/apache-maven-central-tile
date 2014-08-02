@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 
 	<!-- remember you need a description, license, url and developers and url -->
+
 	<!--
 	<description>These are required</description>
 	<url>http://repaint.io</url>
@@ -15,14 +17,13 @@
 
 
 	<developers>
-	<developer>
-		<id>some-id</id>
-		<email>your-email</email>
-		<name>Your Name</name>
-	</developer>
-</developers>
+		<developer>
+			<id>some-id</id>
+			<email>your-email</email>
+			<name>Your Name</name>
+		</developer>
+	</developers>
 	-->
-
 	<!-- make sure you put your username/password in your settings.xml for sonatype-staging -->
 
 	<distributionManagement>
@@ -40,8 +41,8 @@
 
 	<profiles>
 		<profile>
-			<!-- adtivate the sonatype profile when a release is being done -->
-			<id>sonaytpe</id>
+			<!-- activate the sonatype profile when a release is being done -->
+			<id>sonatype</id>
 			<activation>
 				<property>
 					<name>performRelease</name>
